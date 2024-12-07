@@ -1,41 +1,38 @@
 # Attendance Management System Using Face Recognition
 
-This project implements an **Attendance Management System** using face recognition technology. The system uses **OpenCV** for real-time face detection and recognition and maintains attendance records efficiently in a CSV file. It is equipped with a user-friendly GUI built using **Tkinter**.
+This project is an Attendance Management System that uses face recognition to mark attendance. It leverages OpenCV for face detection and recognition.
 
 ## Features
 
-- **Real-Time Face Detection**: Detects faces using a webcam.
-- **Face Recognition**: Identifies individuals and marks their attendance.
-- **Attendance Records**: Automatically saves attendance records with timestamps in a CSV file.
-- **Training Module**: Includes a feature to train the system with new faces.
-- **User-Friendly Interface**: Intuitive GUI for ease of use.
-
+- Detects faces in real-time using a webcam.
+- Recognizes faces and marks attendance.
+- Stores attendance records in a CSV file.
+- Provides both a web-based interface (Streamlit) and a desktop application (Tkinter)
+- 
 ## Requirements
 
 - **Python 3.x**
 - **OpenCV** 
 - **NumPy**
 - **Pandas**
+- **Pillow**
+- **Streamlit** (for web interface)
+- **Tkinter** (for desktop application)
 
 Ensure the necessary packages are installed before running the system.
 
 ## Installation
 
 ### Step 1: Clone the Repository
-Clone the repository to your local machine:
-```bash
-git clone https://github.com/aadyas17/attendance-management-system.git
-cd attendance-management-system
-```
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/aadyas17/attendance-management-system.git
+   cd attendance-management-system
 
-### Step 2: Set Up a Virtual Environment
-Create and activate a virtual environment to manage dependencies:
+### Step 2: Create a virtual environment and activate it:
 ```bash
 python -m venv venv
-# For Windows:
 .\venv\Scripts\activate
-# For macOS/Linux:
-source venv/bin/activate
 ```
 
 ### Step 3: Install Required Packages
@@ -58,10 +55,21 @@ pip install -r requirements.txt
   ```
 
 ### 2. **Running the Attendance System**
-- Launch the main application to start detecting and recognizing faces:
-  ```bash
-  python main_run.py
-  ```
+Running the Attendance System
+
+1.Streamlit (Web Interface)
+
+Run the Streamlit script:
+```bash
+streamlit run main_run_streamlit.py
+```
+
+2. Tkinter (Desktop Application)
+
+Run the Tkinter script:
+```bash
+python main_Run.py
+```
 
 ### 3. **Viewing Attendance Records**
 - Attendance records are stored in the `attendance/attendance.csv` file. Open this file with any text editor or spreadsheet software to view the attendance log.
