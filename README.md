@@ -11,7 +11,7 @@ This project is an advanced Attendance Management System that utilizes face reco
   
 ## Requirements
 
-- **Python 3.x**
+- **Python**
 - **OpenCV** 
 - **NumPy**
 - **Pandas**
@@ -81,12 +81,14 @@ python main_Run.py
 ```
 attendance-management-system/
 │
-├── dataset/                 # Directory containing training images
-├── attendance/              # Directory containing attendance logs
-├── trainer/                 # Directory for trained model files
-├── main_run.py              # Main script to run the attendance system
-├── training.py              # Script to train the face recognition model
-├── requirements.txt         # List of required Python packages
+├── datasets/                # Directory containing training images
+├── [training.py](http://_vscodecontentref_/1)              # Script to train the face recognition model
+├── main_run_tkinter.py      # Main script to run the attendance system with Tkinter
+├── [main_run_streamlit.py](http://_vscodecontentref_/2)    # Main script to run the attendance system with Streamlit
+├── [requirements.txt](http://_vscodecontentref_/3)         # List of required packages
+├── attendance.csv           # Sample attendance record file (optional)
+├── .gitignore               # Git ignore file
+├── .gitattributes           # Git attributes file (optional)
 ├── README.md                # Project documentation
-└── ...                      # Other scripts and files
+└── LICENSE                  # License file (optional)
 ```
