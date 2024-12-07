@@ -82,9 +82,3 @@ attendance-management-system/
 ├── README.md                # Project documentation
 └── ...                      # Other scripts and files
 ```
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to use and modify it for personal or educational purposes.
