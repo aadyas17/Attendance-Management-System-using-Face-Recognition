@@ -1,6 +1,6 @@
 # Attendance Management System Using Face Recognition
 
-This project is an Attendance Management System that uses face recognition to mark attendance. It leverages OpenCV for face detection and recognition.
+This project is an advanced Attendance Management System that utilizes face recognition technology for efficient attendance tracking. It leverages OpenCV for real-time face detection and recognition, providing both a Tkinter-based desktop application (main_run.py) and a Streamlit-based web application (main_run_streamlit.py) to cater to diverse user preferences.
 
 ## Features
 
@@ -8,7 +8,7 @@ This project is an Attendance Management System that uses face recognition to ma
 - Recognizes faces and marks attendance.
 - Stores attendance records in a CSV file.
 - Provides both a web-based interface (Streamlit) and a desktop application (Tkinter)
-- 
+  
 ## Requirements
 
 - **Python 3.x**
