@@ -1,5 +1,4 @@
 # Attendance Management System Using Face Recognition
-
 This project is an advanced Attendance Management System that utilizes face recognition technology for efficient attendance tracking. It leverages OpenCV for real-time face detection and recognition.
 
 ## Features
